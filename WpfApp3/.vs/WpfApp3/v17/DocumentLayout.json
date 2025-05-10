@@ -6,16 +6,16 @@
       "AbsoluteMoniker": "D:0:0:{04F62D09-FD3D-46AB-9C0D-52C5685BC569}|..\\Server\\Server.csproj|c:\\users\\111\\source\\repos\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|c:\\users\\111\\source\\repos\\wpfapp3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|c:\\users\\111\\source\\repos\\wpfapp3\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|c:\\users\\111\\source\\repos\\wpfapp3\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|c:\\users\\111\\source\\repos\\wpfapp3\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DBA8DA48-99BB-4722-A03E-40806DE85760}|Client.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,14 +35,14 @@
               "RelativeDocumentMoniker": "..\\Server\\Program.cs",
               "ToolTip": "C:\\Users\\111\\source\\repos\\Server\\Program.cs",
               "RelativeToolTip": "..\\Server\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T10:50:29.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "App.config",
               "DocumentMoniker": "C:\\Users\\111\\source\\repos\\WpfApp3\\App.config",
               "RelativeDocumentMoniker": "App.config",
@@ -55,7 +55,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\111\\source\\repos\\WpfApp3\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
@@ -67,13 +67,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\111\\source\\repos\\WpfApp3\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\111\\source\\repos\\WpfApp3\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAgwGIAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-10T10:46:21.815Z",
               "EditorCaption": ""

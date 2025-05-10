@@ -1,6 +1,8 @@
 ﻿using System.Net;
 using System.Net.Sockets;
+using System.Security.Cryptography;
 using System.Text;
+using System.Xml.Linq;
 
 public class ChatServer
 {
@@ -8,7 +10,7 @@ public class ChatServer
     TcpListener server;
     List<StreamWriter> clients = new List<StreamWriter>();
     object locker = new object();
-
+    int MaxClient = 1;
     public ChatServer()
     {
         server = new TcpListener(IPAddress.Parse("127.0.0.1"), port);
@@ -37,6 +39,13 @@ public class ChatServer
 
             lock (locker)
             {
+                if (clients.Count >= MaxClient) {
+                    Console.WriteLine("Max clients in chat!");
+                    sw.WriteLine($"---------------------- don't can connect ----------------------");
+                    client.Close();
+                    MaxClient--;
+                    return;
+                }
                 clients.Add(sw);
             }
 
@@ -46,7 +55,7 @@ public class ChatServer
                 if (message == "$<close>")
                     break;
 
-                Console.WriteLine($"[{DateTime.Now:T}] {message}");
+                Console.WriteLine($"[{DateTime.Now:T}] {message}, count cl -> {clients.Count}");
                 Broadcast(message);
             }
         }

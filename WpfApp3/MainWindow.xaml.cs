@@ -27,7 +27,7 @@ namespace WpfApp3
         ObservableCollection<MessageInfo> messages;
         StreamWriter sw;
         StreamReader sr;
-        string Name = null;
+         string Name = null;
 
         public MainWindow()
         {
@@ -73,6 +73,9 @@ namespace WpfApp3
                 ns = client.GetStream();
                 sw = new StreamWriter(ns);
                 sr = new StreamReader(ns);
+
+               
+
                 Listener();
             }
             catch (Exception ex)
@@ -83,12 +86,18 @@ namespace WpfApp3
 
         private async void Listener()
         {
+            string error = "---------------------- don't can connect ----------------------";
             while (true)
             {
                 try
                 {
                     string? message = await sr.ReadLineAsync();
                     if (message != null)
+                        if (message == error)
+                        {
+                            MessageBox.Show($"{error}");
+                            return;
+                        }
                         messages.Add(new MessageInfo(message));
                 }
                 catch
